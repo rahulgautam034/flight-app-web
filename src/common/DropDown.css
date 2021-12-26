@@ -1,0 +1,27 @@
+
+.drop_down {
+    justify-content: space-between;
+  }
+  
+  .dropdown-toggle {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  
+  .drop_down_list {
+    background-color: #fff;
+    border-radius: 0px;
+    padding: 0;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+  }
+  
+  .button_main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-item {
+    font-size: 1rem;
+  }

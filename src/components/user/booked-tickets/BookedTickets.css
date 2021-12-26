@@ -1,0 +1,138 @@
+.ticket_card {
+  margin-top: 5rem;
+  border-radius: 1rem;
+  justify-content: flex-start;
+  height: auto !important;
+  position: fixed;
+}
+
+#loader {
+  position: fixed;
+  display: flex;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 50vh;
+}
+.header {
+  border-bottom: 0.2rem solid #000;
+  padding: 0.5rem;
+}
+
+div h2 {
+  color: #000;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+#booked_card_content {
+  overflow-x: auto !important;
+  border: 0.1rem solid #000;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-align: left;
+}
+
+.main_content_div {
+  text-align: left !important;
+  justify-content: center !important;
+  overflow: scroll;
+  overflow-x: hidden;
+  flex-direction: row;
+  height: 40rem;
+  overflow-y: auto !important;
+}
+
+.row {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #000;
+  margin: 1rem;
+  align-items: center;
+}
+
+.input_div {
+  color: #000;
+  text-align: left;
+  align-items: center;
+}
+
+.input_div label {
+  font-size: 2rem;
+}
+
+div input {
+  width: 40rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.action_div {
+  display: flex;
+}
+
+.booked {
+  background: green;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.cancel {
+  background: red;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+.custom {
+  width: 4rem !important;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+
+.no_data {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+/* ViewModal*/
+
+.row_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin:1rem
+}
+
+.div_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.status_circle {
+  padding: 0.5rem;
+}
+
+.passenger_body {
+
+  max-height: 10rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.report_passenger_div {
+  text-align: center;
+  
+}
+
+.modal-main {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+/*  */

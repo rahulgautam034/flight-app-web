@@ -1,0 +1,102 @@
+.card {
+  display: flex;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  background-color: rgb(233, 229, 229);
+  justify-content: center;
+  align-self: center;
+}
+
+.loader {
+  position: fixed;
+  display: flex;
+  align-self: center;
+  /* width: 100vw;
+  height: 100vh;
+  top: 50vh; */
+}
+
+.header {
+  border-bottom: 0.2rem solid #000;
+  padding: 0.5rem;
+}
+
+div h2 {
+  color: #000 !important;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.navbar_title {
+  color: #fff;
+  display: flex;
+}
+
+.card_main {
+  display: flex;
+
+}
+
+.main {
+  height: 30rem;
+  width: 70rem;
+  margin: 3em ;
+  background-color: #fff;
+}
+
+.new-expense__control label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  font: inherit;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 30rem;
+  max-width: 100%;
+  font-size: 1em;
+}
+
+.new-expense__control select {
+  font: inherit;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 30rem;
+  max-width: 100%;
+  font-size: 1rem;
+}
+
+.input_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:1rem;
+}
+
+.form_action {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.form_action button {
+  width: 15rem;
+}
+
+label {
+  color:grey;
+}
+
+.trip-button {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+.mx-auto {
+  justify-content: center;
+}
+
+.mx-auto button {
+  width:20rem
+}
+

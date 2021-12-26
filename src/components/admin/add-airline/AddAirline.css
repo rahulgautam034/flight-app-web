@@ -1,0 +1,75 @@
+#card_main {
+  margin-top: 5rem;
+  border-radius: 1rem;
+  justify-content: flex-start;
+  height: auto !important;
+  position: fixed;
+}
+.loader {
+  position: fixed;
+  display: flex;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 50vh;
+
+}
+.header {
+  border-bottom: 0.2rem solid #000;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card_content {
+  text-align: center !important;
+  justify-content: center !important;
+  overflow: scroll;
+  overflow-x: hidden;
+  flex-direction: row;
+  height: 40rem;
+  overflow-y: auto !important;
+}
+.form {
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.form div h1 {
+  border-bottom: 1px solid rgb(25, 63, 121);
+  padding: 0.7rem;
+}
+.form_main {
+  justify-content: space-between;
+  display: flex;
+}
+
+.form_outer {
+  border: 0.1rem solid #000;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.form_main div {
+  padding: 0.7rem;
+}
+
+.col {
+  text-align: left;
+}
+
+.add_button {
+  justify-content: center;
+  margin: 1rem;
+}
+
+.mandatory_symbol {
+  color: red;
+}
+
+.loader_div {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+}

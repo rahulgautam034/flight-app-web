@@ -1,0 +1,52 @@
+.manage_card {
+    margin-top: 5rem;
+    border-radius: 1rem;
+    justify-content: flex-start;
+    height: auto !important;
+    position: fixed;
+
+}
+.card_manage {
+    display: flex;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    background-color: rgb(233, 229, 229);
+    justify-content: flex-start;
+    align-self: center;
+    height: 40rem;
+  
+  }
+
+  .header {
+    border-bottom: 0.2rem solid #000;
+    padding: 0.5rem;
+  }
+
+  .head {
+    border-bottom: 1px solid #000;
+  }
+
+  #manage_card_content {
+    text-align: center !important;
+    justify-content: center !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    flex-direction: row;
+    height: 40rem;
+    overflow-y: auto !important;
+  }
+
+  table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  button {
+    width: 7rem;
+  }
+
+  .no_data {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }

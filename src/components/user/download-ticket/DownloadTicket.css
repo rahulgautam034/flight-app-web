@@ -1,0 +1,22 @@
+
+.div_main
+ {
+     height: 100vh;
+     background-color: #fff;
+     margin-top:5rem;
+     width: 100vw;
+ }
+ .img {
+    height: 5.5rem;
+    display: block;
+    width: 15rem;
+  }
+
+.table_div {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.ticket_table {
+}

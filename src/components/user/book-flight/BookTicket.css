@@ -1,0 +1,108 @@
+#card {
+  margin-top: 5rem;
+  border-radius: 1rem;
+  justify-content: flex-start;
+  height: auto !important;
+  position: fixed;
+}
+
+.loader {
+  position: fixed;
+  display: flex;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+  top: 50vh;
+}
+
+.header {
+  border-bottom: 0.2rem solid #000;
+  padding: 0.5rem;
+}
+
+div h2 {
+  color: #000;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.card_content {
+  overflow: scroll;
+  overflow-x: hidden;
+  flex-direction: row;
+  height: 40rem;
+  overflow-y: auto !important;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  border: none;
+}
+
+.row_main {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #fff;
+  margin: 1rem;
+  align-items: center;
+  background-color: #fff;
+  height: 15rem;
+  text-align: left;
+}
+
+.internal_card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub_card {
+  background-color: #f4f4f4;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.card_schedule {
+  display: flex;
+  flex-direction: row;
+}
+
+.passenger_card {
+  background-color: #fff;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.passenger_card input {
+  width: auto;
+  border-radius: 0.2rem;
+  border: 1px solid #000;
+}
+
+.select {
+  width: 10rem;
+}
+
+.render_passenger {
+  border-top: 0.1rem solid #000;
+  margin-top: 1rem;
+}
+
+.passenger_card h5 {
+  margin-bottom: 2rem;
+}
+
+h5 {
+  text-align: left;
+}
+
+.add_button {
+  width: 30rem;
+}
+
+.book_ticket_btn {
+  text-align: center;
+}
